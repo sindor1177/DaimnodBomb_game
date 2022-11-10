@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiamnodBomb_game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./IMAGES/Logo.jpg">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="time_wrap">
+            <p class="info_text">TRY TO FIND 10  💎 </p>
+            <h1 class="time_text">00:00</h1>
+        </div>
+
+        <table class="table"></table>
+
+        <div class="score_wrap">
+            <h2 class="score_text">
+                YOU FOUND : <span class="score_text-blue">0</span> 💎
+            </h2>
+            <h2 class="score_text">
+                YOU FOUND : <span class="score_text-red">0</span> 💣
+            </h2>
+        </div>
+       
+        <div class="modal end_modal">
+            <div class="modal_panel">
+                <h1 class="modal_title">GAME OVER 😔</h1>
+                <button class="modal_btn restart_btn">Restart</button>
+                <br>
+                <br>
+                <h2 class="final_score_text">
+                    YOU FOUND : <span class="score_text-blue">0</span> 💎
+                </h2>
+                <br>
+                <h2 class="final_score_text">
+                    YOU FOUND : <span class="score_text-red">0</span> 💣
+                </h2>
+            </div>
+        </div>
+
+        <div class="modal start_modal modal_open">
+            <div class="modal_panel">
+                <h1 class="modal_title"> START GAME</h1>
+                <button class="start_btn modal_btn">START</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
